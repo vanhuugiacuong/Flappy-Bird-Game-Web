@@ -171,7 +171,7 @@ function placePipe() {
 }
 
 function moveBird(e) {
-    if (e.code == "Space" || e.code == "ArrowUp") {
+    if (e.code == "Space" || e.code == "ArrowUp" || e.code == "KeyW") {
         if (bgm.paused) {
             bgm.play();
         }
